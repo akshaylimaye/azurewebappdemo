@@ -11,4 +11,9 @@ public class DisplayTextController {
 	public String dsiplay() {
 		return "hello world!";
 	}
+	
+	@RequestMapping(method = RequestMethod.GET, value = "/test/test2")
+	public String dsiplay2() {
+		return "hello world 2nd method!";
+	}
 }
