@@ -12,8 +12,13 @@ public class DisplayTextController {
 		return "hello world!";
 	}
 	
-	@RequestMapping(method = RequestMethod.GET, value = "/test/test2")
+	@RequestMapping(method = RequestMethod.GET, value = "/test/test3")
 	public String dsiplay2() {
 		return "hello world 2nd method!";
+	}
+	
+	@RequestMapping(method = RequestMethod.GET, value = "/testAzure")
+	public String testAzure() {
+		return "Azure web app working";
 	}
 }
