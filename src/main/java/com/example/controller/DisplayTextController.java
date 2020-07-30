@@ -19,6 +19,6 @@ public class DisplayTextController {
 	
 	@RequestMapping(method = RequestMethod.GET, value = "/testAzure")
 	public String testAzure() {
-		return "Azure web app working";
+		return "Azure web app working fine";
 	}
 }
